@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css?family=Poetsen Oue&display=swap");
+
+body {
+  font-family: Poetsen Oue, serif;
+  background-color: #63bb8d;
+}
+.text-help{
+  color: aliceblue;
+font-size: x-large;}
+
+.nav-link {
+  color: aliceblue;
+}
+.navbar-nav .nav-link.active {
+  color: bisque;
+}
+.navbar-brand img {
+  width: 45px;
+}
+.navbar-toggler {
+  background-color: aliceblue;
+}
+
+.card:hover {
+  background-color: lightsteelblue;
+}
+.card a {
+  text-decoration: none;
+}
+.card {
+  text-align: center;
+  color: black;
+}
+
+.sidebar {
+  color: antiquewhite;
+  background-color: #419e6e;
+}
+.sidebar p {
+  font-size: large;
+}
+.slide-text
+{
+  color: rgb(255, 255, 255);
+  font-size: x-large;
+  margin: auto auto;
+}
+footer{
+ background: #36684e;
+}
+.footer-text {
+  color: rgb(255, 255, 255);
+  font-size: medium;
+  margin: auto auto;
+}
+.media-links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-anima{
+  animation: myAnim 2s ease 0s 12 normal forwards;
+}
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateY(-250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateY(-65px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateY(-28px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateY(-8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+}
+
+@media(max-width:755px){.carousel-indicators{
+  display: none;
+}}
+
